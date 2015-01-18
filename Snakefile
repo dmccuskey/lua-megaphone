@@ -9,6 +9,7 @@ except:
 module_config = {
 	"name": "lua-megaphone",
 	"module": {
+		"dir": "dmc_lua",
 		"files": [
 			"lua_megaphone.lua"
 		],
@@ -17,10 +18,9 @@ module_config = {
 		]
 	},
 	"tests": {
-		"files": [
-		],
-		"requires": [
-		]
+		"dir": "spec",
+		"files": [],
+		"requires": []
 	}
 }
 
