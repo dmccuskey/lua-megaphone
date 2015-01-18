@@ -153,7 +153,7 @@ Events.EVENT = 'event_mix_event'
 -- Start: Mixin Setup for Lua Objects
 
 function Events.__init__( self, params )
-	print( "Events.__init__" )
+	-- print( "Events.__init__" )
 	params = params or {}
 	--==--
 
