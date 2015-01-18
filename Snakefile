@@ -14,7 +14,8 @@ module_config = {
 			"lua_megaphone.lua"
 		],
 		"requires": [
-			"lua-objects"
+			"lua-objects",
+			"lua-events-mixin"
 		]
 	},
 	"tests": {
