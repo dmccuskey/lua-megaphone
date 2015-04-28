@@ -15,7 +15,6 @@ module_config = {
 		],
 		"requires": [
 			"lua-objects",
-			"lua-events-mixin"
 		]
 	},
 	"tests": {
